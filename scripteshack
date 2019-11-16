@@ -44,11 +44,14 @@ else
     echo "Tegar"
     exit
     clear
+    
 fi
 
 ulang="y"
+
 while [ $ulang = "y" ];
 do
+
 echo ""
 cd $home
 clear
@@ -66,6 +69,7 @@ echo "(3)  bucin"
 echo "(4)  Dicky"
 echo "(5)exit"
 read -p "masukan pilihan anda : " pilih;
+
 if [ $pilih = "1" ]
 then
   echo "install bahan² awal"
@@ -102,6 +106,7 @@ elif [ $pilih = "3" ]
   ls
   sh bucin.sh
   sleep 3
+  
 elif [ $pilih = "4" ]
   then
   echo "Dicky gt"
