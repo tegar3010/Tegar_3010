@@ -1,5 +1,9 @@
 #!/system/bin/sh
 
+sleep 3
+ cd $home
+ clear
+
 echo ""
 sleep 1
 echo "selamat datang di scrip Tegar_3010"
